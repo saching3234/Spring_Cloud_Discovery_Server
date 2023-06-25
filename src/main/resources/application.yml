@@ -1,0 +1,9 @@
+server:
+ port: 8761
+ 
+#eureka registration for discovery server not allowed
+eureka:
+  client:
+   register-with-eureka: false
+   fetch-registry: false
+   
